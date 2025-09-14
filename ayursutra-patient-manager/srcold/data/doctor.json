@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. Asha Sharma",
+    "specialization": "Kaya Chikitsa (Internal Medicine)",
+    "qualification": "MD Ayurveda",
+    "experience": "10 years",
+    "approved": true
+  },
+  {
+    "id": 2,
+    "name": "Dr. Ravi Kumar",
+    "specialization": "Panchakarma",
+    "qualification": "BAMS",
+    "experience": "8 years",
+    "approved": true
+  },
+  {
+    "id": 3,
+    "name": "Dr. Meera Iyer",
+    "specialization": "Shalakya Tantra (ENT & Eye)",
+    "qualification": "MD Ayurveda",
+    "experience": "12 years",
+    "approved": true
+  },
+  {
+    "id": 4,
+    "name": "Dr. Sanjay Patil",
+    "specialization": "Rasayana & Rejuvenation",
+    "qualification": "BAMS",
+    "experience": "7 years",
+    "approved": true
+  },
+  {
+    "id": 5,
+    "name": "Dr. Kavita Rao",
+    "specialization": "Agada Tantra (Toxicology)",
+    "qualification": "MD Ayurveda",
+    "experience": "9 years",
+    "approved": true
+  },
+  {
+    "id": 6,
+    "name": "Dr. Mohan Verma",
+    "specialization": "Kaumarbhritya (Pediatrics)",
+    "qualification": "BAMS",
+    "experience": "6 years",
+    "approved": true
+  }
+]

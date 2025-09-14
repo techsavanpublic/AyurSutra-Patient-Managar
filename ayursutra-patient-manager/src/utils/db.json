@@ -1,0 +1,113 @@
+{
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Dr. Priya Sharma",
+      "email": "priya@ayurveda.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Panchakarma",
+      "experience": 15,
+      "phone": "+91-9876543210"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Rajesh Kumar",
+      "email": "rajesh@ayurveda.com",
+      "password": "doctor123",
+      "role": "doctor",
+      "specialization": "Rasayana Therapy",
+      "experience": 12,
+      "phone": "+91-9876543211"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "name": "Amit Patel",
+      "email": "amit@patient.com",
+      "password": "patient123",
+      "role": "patient",
+      "phone": "+91-8765432109",
+      "age": 35,
+      "prakriti": "Vata-Pitta"
+    },
+    {
+      "id": 2,
+      "name": "Sunita Devi",
+      "email": "sunita@patient.com",
+      "password": "patient123",
+      "role": "patient",
+      "phone": "+91-8765432108",
+      "age": 42,
+      "prakriti": "Kapha-Vata"
+    }
+  ],
+  "admin": {
+    "id": 0,
+    "name": "Admin",
+    "email": "admin@ayurveda.com",
+    "password": "admin123",
+    "role": "admin"
+  },
+  "appointments": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "doctorId": 1,
+      "date": "2024-03-20",
+      "time": "10:00 AM",
+      "status": "confirmed",
+      "type": "consultation"
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "doctorId": 2,
+      "date": "2024-03-22",
+      "time": "2:00 PM",
+      "status": "pending",
+      "type": "follow-up"
+    }
+  ],
+  "therapyTypes": [
+    {
+      "id": 1,
+      "name": "Abhyanga",
+      "guidelines": "Full body oil massage with warm herbal oils. Duration: 45-60 minutes. Frequency: 2-3 times per week."
+    },
+    {
+      "id": 2,
+      "name": "Shirodhara",
+      "guidelines": "Continuous pouring of medicated oil on forehead. Duration: 30-45 minutes. Best for stress and anxiety."
+    },
+    {
+      "id": 3,
+      "name": "Panchakarma",
+      "guidelines": "Complete detoxification program. Duration: 7-21 days. Requires medical supervision."
+    },
+    {
+      "id": 4,
+      "name": "Swedana",
+      "guidelines": "Herbal steam therapy. Duration: 10-15 minutes. Helps in joint pain and stiffness."
+    }
+  ],
+  "reminders": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "title": "Take Triphala",
+      "description": "Take 1 tsp of Triphala powder with warm water before bed",
+      "frequency": "daily",
+      "time": "9:00 PM"
+    },
+    {
+      "id": 2,
+      "patientId": 1,
+      "title": "Morning Yoga",
+      "description": "Practice Surya Namaskara for 15 minutes",
+      "frequency": "daily",
+      "time": "6:00 AM"
+    }
+  ]
+}
